@@ -1,0 +1,121 @@
+:root{
+    --background-blue: rgb(3, 3, 98);
+}
+
+
+
+header {
+    background-color: var(--background-blue); 
+    width: 143em;
+    height: 10em;
+   margin: -.5em;
+   padding-left: 1em;
+   padding-top: 1em;
+}
+.nav-button
+{
+    background-color: white;
+    display: inline-block;
+    list-style: none; 
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: .3em;
+    padding-bottom: .3em;
+}
+.nav-button>a
+{
+    text-decoration: none;
+    color: black;
+    
+}
+
+#link-card-img-1 {
+    background-image: url("/images/applynow.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 20em;
+    width: 90%;
+    margin-left: -5%;
+}
+
+#link-card-img-2 {
+    background-image: url("/images/requestinfo.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 90%;
+    margin-left: -5%;
+}
+#link-card-img-3 {
+    background-image: url("/images/visitcampus.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 90%;
+    margin-left: -5%;
+    
+}
+
+.figureclass1{
+    display: flex;
+}
+
+.bluebars h2
+{
+    background-color: var(--background-blue);
+    display: inline-block;
+    color: white;
+    margin-top: -1em;
+    padding-right: 15em;
+    margin-right: 12em;
+    margin-left: -.3em;
+    text-align: left;
+    padding-top: .3em;
+    padding-bottom: .3em;
+}
+
+hr{
+    color: lightgrey;
+}
+.placeholder
+{
+margin-left: -.5em;
+
+}
+h1{
+    color: var(--background-blue);;
+    background-color: white;
+    font-size: 200%;
+}
+figcaption{
+    font-size: x-large;
+}
+h3{
+    display: inline-block;
+    font-size: xx-large;
+    margin-left: 1em;
+    margin-right: 23em;
+    padding-right: 6em;
+
+    background-color: lightgrey;
+    color: black;
+}
+.lisst1{
+    font-size: x-large;
+
+margin-top: -1em;
+color: rgb(196, 128, 2);
+
+list-style: none;
+}
+
+.list2{
+
+    font-size: x-large;
+    margin-top: -4.5em;
+   margin-left: 46.5em;
+   color: rgb(196, 128, 2);
+   list-style: none;
+
+}
